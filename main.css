@@ -69,10 +69,8 @@ table {
 */
 
 .commandsbody1 .commandsheader1 {
-  background:#D3D3D3 ;
-  font-size:39px ;
-  margin: 10px ;
-  color: #ffffff ;
+  color: white ;
+  text-align: center;
 }
 .commandsbody1 .commandsection1 {
 	background:grey ;
@@ -80,36 +78,52 @@ table {
 }
 .commandsbody1 {
   font-size:36px ;
-  color: #800020 ;
+  color: rgba(211, 211,	211, 1) ;
+  margin: 15px;
 }
 .commandsheader1 {
-  background:#D3D3D3 ;
-  font-size:39px ;
-  margin: 10px
+  font-size:48px ;
+  margin-left:450px ;
+  margin-right: 450px;
+  background:rgba(	154,	64,	64, 1) ;
 }
 .mainheader1 {
-  background: #A9A9A9 ;
-  color: #D3D3D3 ;
+  background-image: radial-gradient( circle at top center,rgba(46, 49, 49, 1),rgba(46, 49, 49, 0)) ;
+  color: rgba(211, 211,	211, 1) ;
   font-size: 90px ;
   font-family: 'Roboto', sans-serif; ;
   height: 100px ;
   margin: 20px ;
+  text-align: center ;
+
 }
 div {
   font-family: 'Lato', sans-serif ;
 }
 p {
-  background: #A9A9A9 ;
+  background: transparent ;
 }
 .commandsfooter1 {
-  background: #A9A9A9 ;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-size: 36px;
+  cursor: pointer;
+  width: 600px;
+  display: inline-block;
+  font-family: 'Lato', sans-serif ;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
   margin: 15px ;
 }
-.commandsnavagation1 commands{
-  background: #808080 ;
-  font-size: 48px ;
-  margin: 15px ;
-  color: #D3D3D3
+  
+.commandsfooter1 :not(:last-child) {
+  border-bottom: none; 
+}
+  
+.commandsfooter1 :hover {
+  background-image: linear-gradient(to right, rgba(	154,	64,	64, 1), rgba(	154,	64,	64, 0) 95% );
 }
 .hello1 {
   margin: 5px ;
@@ -124,6 +138,41 @@ p {
 
 }
 .info1 {
-    margin: 5px ;
+  margin: 5px ;
   
+}
+html {
+  background-image: linear-gradient(rgba(122, 122,	122, 1) 11%, rgba(88, 88, 88, 1), rgba(122, 122,	122, 1) 98%) ;
+  background-attachment: fixed;
+}
+#navagationmenu1 {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-size: 48px;
+  cursor: pointer;
+  width: 900px;
+  font-family: 'Lato', sans-serif ;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  margin:15px;
+}
+  
+#navagationmenu1 :not(:last-child) {
+  border-bottom: none; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.addtodiscord1:hover {
+  background-image: linear-gradient(to right, rgba(	154,	64,	64, 1) 35% , rgba(	154,	64,	64, 0));
+}
+.commandsnavigation1:hover {
+  background-image: linear-gradient(to right, rgba(	154,	64,	64, 1) 35% , rgba(	154,	64,	64, 0)); 
+}
+.spacer {
+  color: transparent;
 }
